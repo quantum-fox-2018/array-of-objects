@@ -1,6 +1,6 @@
 var arr = []
 
-function createObj(name, phase, gender){
+function createObj(name, phase, gender) {
     let obj = {
         name: name,
         phase: phase,
@@ -16,5 +16,9 @@ createObj('Adhit', 2, 'male')
 createObj('Tama', 2, 'male')
 createObj('Rifky', 3, 'male')
 
-
 console.log(arr);
+
+
+
+console.log(getData('Icha'))
+
